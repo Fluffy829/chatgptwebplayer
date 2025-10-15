@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Spotify CSV Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Spotify CSV Music Player</h1>
+    <button id="login-btn">Login with Spotify</button>
+    <button id="logout-btn" hidden>Logout</button>
+  </header>
+
+  <main>
+    <section id="upload-section">
+      <input type="file" id="csv-file" accept=".csv" />
+    </section>
+
+    <section id="search-section" hidden>
+      <input type="search" id="search" placeholder="Search tracks..." />
+    </section>
+
+    <section id="tracks-container"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

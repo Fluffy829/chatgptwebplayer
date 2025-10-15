@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #121212;
+  color: #eee;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 16px;
+  background: #1db954;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1ed760;
+}
+
+#upload-section {
+  margin-bottom: 20px;
+}
+
+#search-section {
+  margin-bottom: 20px;
+}
+
+#search {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+.track {
+  background: #222;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.track img {
+  width: 64px;
+  height: 64px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.track-info {
+  flex-grow: 1;
+}
+
+.track-info h3 {
+  margin: 0 0 4px 0;
+}
+
+.track-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.spotify-embed {
+  width: 300px;
+  height: 80px;
+}
+
