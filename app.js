@@ -1,5 +1,5 @@
-const CLIENT_ID = 'YOUR_SPOTIFY_CLIENT_ID'; // Replace with your own
-const REDIRECT_URI = 'https://yourusername.github.io/spotify-csv-player/'; 
+const CLIENT_ID = '6e7b86fc77b74f3ea3a031ce0a659235'; // Replace with your own
+const REDIRECT_URI = 'https://fluffy829.github.io/chatgptwebplayer/'; 
 // Change to your GitHub Pages URL
 const SCOPES = ''; // No scopes needed for public data, adjust if you want 
 more
